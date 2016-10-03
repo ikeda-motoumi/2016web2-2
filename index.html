@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>はじめてのjQuery</title>
+  
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
   <script type="text/javascript">
+    
     $(function(){
       $("#toggle").on("click",function(){
-        $("p").css("text","red");
-        $("#target").css("bgcolor","black");
+        $("#target").css("text","red")
+                    .css("bgcolor","black");
       });
     });
   </script>
